@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 6</title>
+</head>
+
+<body>
+
+    <h1>Registrar un usuario</h1>
+    <section><strong>
+            <div>
+                <form action="/controlador-registro" method="POST" class="form-registro" enctype="multipart/form-data">
+                    <div>
+                        <label for="name">Nombre del usuario<br></label>
+                        <input type="name" placeholder="Nombre.." />
+                    </div>
+                    <div>
+                        <label for="email">Ingrese correo del usuario<br></label>
+                        <input type="email" placeholder="......@gmail.com">
+                    </div>
+                    <div>
+                        <label for="password">Contrseña del usuario<br></label>
+                        <input pass="password" class="input" type="password" pattern=".{6}"
+                            placeholder="Ingrese al menos 6 digitos" required>
+                        <!--para no hacer visible contraseña -->
+                    </div>
+                    <div>
+                        <label for="pas">Repetir contraseña<br></label>
+                        <input pass="pass" class="input" type="password" pattern=".{6}"
+                            placeholder="Ingrese al menos 6 digitos" required>
+                        <!--para no hacer visible contraseña -->
+                    </div>
+                    <label for="Edad">Edad del usuario<br></label>
+                    <input Edad="Edad" type="number" min="18" max="72" placeholder="tu edad" required>
+
+                    <div class="form-group">
+                        <label for="date">Fecha de nacimiento del usuario<br></label>
+                        <input type="date" name="fecha-inicio" min="1950-01-01" max="2006-01-01" />
+                    </div>
+                    <div>
+                        <h3>Sexo del usuario <br>
+                            <input type="radio" id="Hombre" name="Sexo" value="1">
+                            <label for="hombre">Hombre</label>
+                            <br>
+                            <input type="radio" id="Mujer" name="Sexo" value="2">
+                            <label for="mujer">Mujer</label>
+                            <br>
+                            <input type="radio" id="Otro" name="Sexo" value="3">
+                            <label for="otro">Otro</label>
+                            <br>
+                        </h3>
+                    </div>
+                    <!--
+                    <div>
+                        <h3>Sexo del usuario <br>
+                            <input type="Checkbox" id="Hombre" name="Sexo" value="1">
+                            <label for="hombre">Hombre</label>
+                            <br>
+                            <input type="Checkbox" id="Mujer" name="Sexo" value="2">
+                            <label for="mujer">Mujer</label>
+                            <br>
+                            <input type="Checkbox" id="Otro" name="Sexo" value="3">
+                            <label for="otro">Otro</label>
+                             OTRO METODO DE OPCIONES para CLICKQUEAR CUADRITO
+                        </h3>-->
+
+                    <h3>Pais de nacimiento</h3>
+                    <select name="Paises">
+                        <option>Argentina</option><br>
+                        <option>Chile</option><br>
+                        <option>Uruguay</option><br>
+                        <option>Paraguay</option><br>
+                        <option>Brasil</option><br>
+                    </select><br>
+
+                    <!-- MOTODO OPCION CON BARRA DESPLAZADORA
+                        <br>
+                        <br>
+                        <select name="Paises" size="3" multiple> 
+                            <option>Argentina</option><br>
+                            <option>Chile</option><br>
+                            <option>Uruguay</option><br>
+                            <option>Paraguay</option><br>
+                            <option>Brasil</option><br>
+                        </select>
+                        -->
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+            </div>
+            </div>
+        </strong>
+        </form>
+    </section>
+</body>
+
+</html>
