@@ -2,8 +2,19 @@
 font-family: Times;
 }
 #titulo{
-
 color: rgb(26, 173, 124);
+}
+#subtitulo {
+  
+    color: blue;
+    
 
 }
 
+a  {
+
+color: red;
+}
+em {
+color: blue;
+}
