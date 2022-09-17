@@ -1,20 +1,79 @@
-*{
-font-family: Times;
+* {
+    font-family: Times;
 }
-#titulo{
-color: rgb(26, 173, 124);
+
+#titulo {
+    color: rgb(26, 173, 124);
 }
+
 #subtitulo {
-  
+
     color: blue;
+
+
+}
+
+p a {
+
+    color: red;
+}
+
+p em {
+    color: blue;
+}
+
+
+
+.destacado {
+
+    color: orange;
+}
+
+table {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td,
+td {
+    border: 1px solid #000;
+    padding: 4px;
+
+}
+
+thead th {
+
+    color: orange;
+}
+tfoot {
+
+    color: red;
+}
+tbody .especial:nth-child(1) {
+    color: orange;
     
-
+}
+tbody td:nth-child(3) {
+    color: green;
+}
+tbody th:nth-child(1) {
+    color: red;
+}
+tbody td:nth-child(2) {
+    color: green;
 }
 
-a  {
+#adicional  {
 
-color: red;
+    color:olive;
 }
-em {
-color: blue;
+#especial {
+    color: fuchsia;
+}
+
+#adicional a{
+
+    color: rgb(164, 204, 103);
 }
