@@ -1,0 +1,14 @@
+form  h1{
+color: red;
+    
+}
+
+form div{
+    width: fit-content;
+    margin-top: 5px;
+    background-color: yellow;
+    margin-left: 2cm;
+}
+button{
+    margin-left: 2cm;
+}

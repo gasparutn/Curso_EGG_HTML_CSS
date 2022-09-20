@@ -9,8 +9,6 @@
 #subtitulo {
 
     color: blue;
-
-
 }
 
 p a {
@@ -18,10 +16,17 @@ p a {
     color: red;
 }
 
+p strong{
+    color: red;
+ }
+
 p em {
     color: blue;
 }
-
+p span.especial {
+  
+    color: purple;
+}
 
 
 .destacado {
@@ -64,16 +69,19 @@ tbody th:nth-child(1) {
 tbody td:nth-child(2) {
     color: green;
 }
+tbody td strong{
+    color: orange;
+}
 
 #adicional  {
 
-    color:olive;
+    color:rgb(139, 139, 20);
 }
-#especial {
+span#especial {
     color: fuchsia;
 }
 
 #adicional a{
 
-    color: rgb(164, 204, 103);
+    color: rgb(104, 180, 32);
 }
